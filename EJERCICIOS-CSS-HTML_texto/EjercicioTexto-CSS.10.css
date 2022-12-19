@@ -1,17 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Open+Sans:ital,wght@1,300&family=Permanent+Marker&display=swap');
-
-
+@font-face {
+    font-family: 'Rubik Spray Paint', cursive; 
+    src: url(../fuentes/Rubik_Spray_Paint/);
+}
+@font-face {
+    font-family: 'Anton', sans-serif;
+    src: url(../fuentes/Anton/);
+}
+@font-face {
+    font-family:'EB Garamond', serif;
+    src: url(../fuentes/EB_Garamond/);
+}
 body {
   background-color:lightcoral;
 }
 
 h1 {
-    font-family: 'Fascinate Inline', cursive;
+    font-family:'Rubik Spray Paint', cursive;
     color: azure;
   font-size: 3rem;
   letter-spacing: 1.5rem;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: underline;
 }
 
 p.intro {
@@ -24,14 +35,14 @@ p.intro {
 
 p.latin {
   margin: 0;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Anton', sans-serif;
   font-size: 2.5rem;
 }
 
 p.espanol {
   margin: 0 0 3rem;
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'EB Garamond', serif;
   font-size: 3.5rem;
   letter-spacing: 1px;
   text-align: right;
