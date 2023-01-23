@@ -6,18 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EJ-Tablas_4_CSS</title>
 <style>
-    
+    body{
+        font-family: Arial, sans-serif;
+    }
+    table{
+        border-collapse: collapse;
+        width: 80%;
+    }
+    th, td{
+        padding: 0.25em;
+        text-align: left;
+        border: 1px solid #ccc;
+    }
+    tbody tr:nth-child(odd){
+        background: #e2f2f5;
+    }
+    tfoot td{
+        text-align: center;
+        font-style: italic;
+        font-size: 0.75em;
+    }
 </style>
 </head>
 
 <body>
     <table>
+        <thead>
         <tr>
             <th>País</th>
             <th>Capital</th>
             <th>Superficie</th>
             <th>Habitantes</th>
         </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="4">Tabla con estilo "zebra"</td>
+            </tr>
+        </tfoot>
+        <tbody>
         <tr>
             <td>España</td>
             <td>Madrid</td>
@@ -48,6 +75,7 @@
             <td>357.160 km<sup>2</sup></td>
             <td>81,2M</td>
         </tr>
+    </tbody>
     </table>
 </body>
 </html>
