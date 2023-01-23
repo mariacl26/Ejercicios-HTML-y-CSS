@@ -5,11 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EJ-Tablas_3_CSS</title>
+    <style type="text/css">
+        table{
+            background-color: beige;
+            border-spacing: 10px;
+            border: 1px solid black;
+            width: 300px;
+        }
+        td{
+            border: 1px solid black;
+            background-color: aquamarine;
+        }
+        .hide{
+            empty-cells: hide;
+        }
+        .show{
+            empty-cells: show;
+        }
+ 
+    </style>
 </head>
 <body>
-    <table>
+    <table class="show">
         <tr>
-            <td/>
+            <td></td>
             <td>Copas</td>
         </tr>
         <tr>
@@ -18,12 +37,15 @@
         </tr>
         <tr>
             <td>Oros</td>
-            <td/>
-        </tr>
+            <td></td>
+        </tr>          
     </table>
-
-    <table>
+<p>
+    
+</p>
+    <table class="hide">
         <tr>
+            <td></td>
             <td>Copas</td>
         </tr>
         <tr>
@@ -32,6 +54,7 @@
         </tr>
         <tr>
             <td>Oros</td>
+            <td></td>
         </tr>
     </table>
 </body>
