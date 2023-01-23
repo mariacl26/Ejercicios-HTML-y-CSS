@@ -6,28 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EJ-Tablas_1_CSS</title>
     <style>
-
+        .collapse{
+            border-collapse: collapse;
+            border: 2px solid red;
+        }
+        .separado{
+            border-collapse: separate;
+            border: 2px solid black;
+        }
+        .black{
+            padding: 5px;
+            border: 1px solid black;
+        }
     </style>
 </head>
 <body>
-<table border="1">
+<table class="collapse">
     <tr>
-        <td>border-collapse: collapse</td>
+        <th colspan="2">border-collapse: collapse</th>
     </tr>
     <tr>
-        <td>Borde de tabla rojo</td>
-        <td>Borde de celda negro</td>
+        <td class="black">Borde de tabla rojo</td>
+        <td class="black">Borde de celda negro</td>
     </tr>
 </table>
 <p>
 </p>
-<table border="1">
+<table class="separado">
     <tr>
-        <td>border-collapse: separate</td>
+        <th colspan="2">border-collapse: separate</th>
     </tr>
     <tr>
-        <td>Borde de tabla verde</td>
-        <td>Borde de tabla negro</td>
+        <td class="black">Borde de tabla verde</td>
+        <td class="black">Borde de tabla negro</td>
     </tr>
 </table>
 </body>
