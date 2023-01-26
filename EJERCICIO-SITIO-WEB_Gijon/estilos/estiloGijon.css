@@ -4,6 +4,14 @@ table{
 tr{
     height:50% ;
 }
+td, th{
+    text-align: justify;
+    padding: 1rem;
+    border-bottom: 1px, solid, #ddd;
+}
+th{
+    background-color: #C8DCFF;
+}
 
 
 .a1{
