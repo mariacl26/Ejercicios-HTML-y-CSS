@@ -9,6 +9,7 @@ td, th{
     text-align: justify;
     padding: 1rem;
     border-bottom: 1px, solid, #ddd;
+    color: white;
 }
 th{
     background-color: #C8DCFF;
