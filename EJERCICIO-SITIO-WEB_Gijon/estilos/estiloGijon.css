@@ -48,7 +48,7 @@ nav ul li:hover{
 /* como añado la propiedad bottom, para centrar gijon sin que me aparezcan los numeros esos?*/
     transform: translate(-50%, -50%);
     color: white; 
-    font-family: 'Abril Fatface', cursive; 
+    font-family: 'Satisfy', cursive;
 /* meter la fuente itim de google fonts https://fonts.google.com/specimen/Itim */ 
     font-size:3cm; 
     text-align: center; 
