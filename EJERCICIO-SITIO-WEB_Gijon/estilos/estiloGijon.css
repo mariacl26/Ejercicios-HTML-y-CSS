@@ -34,11 +34,20 @@ nav ul li:hover{
     text-decoration-color:rgb(255, 0, 0)
 }
 /*https://keepcoding.io/blog/como-hacer-un-menu-de-navegacion-en-html/*/
-h1{
-    color: rgb(255, 0, 0);
+.titulo{
+    position: relative;
+    
+    text-align: center;
+}
+.h1{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
     font-style: ;
     font-family: ;
-    font-size: ;
+    font-size:3cm;
     text-align: center;
 }
 h2{
