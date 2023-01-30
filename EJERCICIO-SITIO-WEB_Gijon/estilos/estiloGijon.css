@@ -9,7 +9,8 @@ header{
 
 }
 nav{
-    float: left;
+    float:left;
+    text-align: center;
     width: 100%;
 }
 nav ul{
