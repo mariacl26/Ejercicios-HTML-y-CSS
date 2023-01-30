@@ -49,6 +49,8 @@ nav ul li:hover{
     transform: translate(-50%, -50%);
     color: white; 
     font-family: 'Satisfy', cursive;
+    font-size:20%;
+    font-weight: bolder;
 /* meter la fuente itim de google fonts https://fonts.google.com/specimen/Itim */ 
     font-size:3cm; 
     text-align: center; 
