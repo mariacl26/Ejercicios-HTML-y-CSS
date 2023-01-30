@@ -36,7 +36,7 @@ nav ul li:hover{
 /*https://keepcoding.io/blog/como-hacer-un-menu-de-navegacion-en-html/*/
 .titulo{
     position: relative;
-    
+    display: inline-block;
     text-align: center;
 }
 .h1{
