@@ -1,9 +1,10 @@
 table{
     width: 30%;
     border-spacing: 1px ;
+    border: 1px solid whitesmoke;
 }
 tr{
-    height:50% ;
+    height:35% ;
 }
 td, th{
     text-align: justify;
@@ -14,8 +15,6 @@ td, th{
 th{
     background-color: #6a96e4ad;
 }
-
-
 .a1{
     background-color: #f87e2d;
 }
