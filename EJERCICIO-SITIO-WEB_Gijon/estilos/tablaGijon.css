@@ -1,7 +1,6 @@
 table{
     width: 30%;
     border-spacing: 1px ;
-    border: 1px solid whitesmoke;
 }
 tr{
     height:35% ;
@@ -9,8 +8,9 @@ tr{
 td, th{
     text-align: justify;
     padding: 1rem;
-    border-bottom: 1px, solid, #ddd;
+    border-bottom: 1rem, solid, #ddd;
     color: white;
+    border: 2px solid white;
 }
 th{
     background-color: #6a96e4ad;
