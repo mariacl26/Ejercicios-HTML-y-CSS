@@ -12,6 +12,7 @@ nav{
     float:left;
     text-align: center;
     width: 100%;
+    background-color: #ff0000;
 }
 nav ul{
     list-style: none;
@@ -25,9 +26,14 @@ nav ul li{
 nav ul li a{
     display: block;
     padding: 20px;
-    color: red;
+    color: white;
     text-decoration: none;
 }
+nav ul li:hover{
+    background: white;
+    text-decoration-color:rgb(255, 0, 0)
+}
+/*https://keepcoding.io/blog/como-hacer-un-menu-de-navegacion-en-html/*/
 h1{
     color: rgb(255, 0, 0);
     font-style: ;
