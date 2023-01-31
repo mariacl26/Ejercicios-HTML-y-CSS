@@ -39,16 +39,12 @@ nav ul li:hover{
     display:inline-block;
     text-align: center;
 }
-.img{
-    padding: 10px;
-    position: relative;
-}
 .laboral{
     width: 100px;
     height: 100px;
     float:right;
-    border-left:0; 
-    border-right:0; 
+    border-left:2cm; 
+    border-right:2cm; 
 }
 .h1{
     position: absolute;
