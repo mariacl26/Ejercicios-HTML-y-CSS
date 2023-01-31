@@ -1,6 +1,6 @@
 body{
     background-color:white;
-    color: rgb(100, 3, 3);
+    color: rgb(49, 25, 25);
 
 }
 header{
@@ -32,7 +32,7 @@ nav ul li a{
 }
 nav ul li:hover{
     background: white;
-    text-decoration-color:black
+    text-decoration-color:rgb(223, 68, 68)
 }
 /*https://keepcoding.io/blog/como-hacer-un-menu-de-navegacion-en-html/*/
 .titulo{
@@ -60,11 +60,16 @@ h2{
     color: rgb(196, 2, 2);
     font-size: 4rem;
     font-style: italic;
-    /*  'Cookie', normal; 'Lilita One', normal;*/
-    font-family:'Abril Fatface', cursive; 
+    font-family: 'Kavoon', cursive;; 
 }
 p{
     font-size: medium;
     font-style: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    color: rgb(196, 2, 2);
+    font-size: 4rem;
+    font-style: italic;
+    font-family: 'Kavoon', cursive; 
 }
