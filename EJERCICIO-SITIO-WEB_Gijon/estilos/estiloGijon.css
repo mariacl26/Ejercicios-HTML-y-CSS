@@ -34,14 +34,19 @@ nav ul li:hover{
     background: rgb(247, 189, 189);
     text-decoration-color:rgb(223, 68, 68)
 }
-.titulo{
+div.titulo{
     position: relative;
     display:inline-block;
     text-align: center;
+    height: 50%;
+    width: auto;
 }
-.laboral{
-    width: 100px;
-    height: 100px;
+.TIT{
+    background-size: cover;
+}
+div.laboral{
+    width: 200px;
+    height: 200px;
     float:right;
     border-left:2cm; 
     border-right:2cm; 
