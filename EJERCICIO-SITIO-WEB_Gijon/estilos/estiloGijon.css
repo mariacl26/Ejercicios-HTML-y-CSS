@@ -55,6 +55,7 @@ nav ul li:hover{
 /* meter la fuente itim de google fonts https://fonts.google.com/specimen/Itim */ 
     font-size:3cm; 
     text-align: center; 
+    background-size:contain;
 }
 h2{
     color: rgb(196, 2, 2);
