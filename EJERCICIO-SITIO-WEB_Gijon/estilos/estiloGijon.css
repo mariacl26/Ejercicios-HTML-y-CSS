@@ -27,11 +27,11 @@ nav ul li{
 nav ul li a{
     display: block;
     padding: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 nav ul li:hover{
-    background: white;
+    background: rgb(247, 189, 189);
     text-decoration-color:rgb(223, 68, 68)
 }
 /*https://keepcoding.io/blog/como-hacer-un-menu-de-navegacion-en-html/*/
