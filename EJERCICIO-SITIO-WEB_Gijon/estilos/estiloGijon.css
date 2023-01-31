@@ -57,8 +57,14 @@ nav ul li:hover{
     text-align: center; 
 }
 h2{
-    color: ;
-    font-size: ;
-    font-style: ;
-    
+    color: rgb(196, 2, 2);
+    font-size: 4rem;
+    font-style: italic;
+    /*  'Cookie', normal; 'Lilita One', normal;*/
+    font-family:'Abril Fatface', cursive; ;
+}
+p{
+    font-size: medium;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
