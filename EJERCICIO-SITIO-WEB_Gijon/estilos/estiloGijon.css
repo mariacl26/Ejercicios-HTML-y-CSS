@@ -41,6 +41,13 @@ nav ul li:hover{
     text-align: center;
 }
 
+.laboral{
+    width: 100px;
+    height: 100px;
+    float:right;
+    border-left: 10px; 
+    border-right: 10px; 
+}
 .h1{
     position: absolute;
     top: 50%;
