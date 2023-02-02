@@ -116,7 +116,9 @@ p{
     padding: 1%;
     line-height: 30px;
     margin-top: 10px;
+    height: auto;
 }
+
 h3{
     color: rgb(207, 43, 43);
     font-size: 2rem;
