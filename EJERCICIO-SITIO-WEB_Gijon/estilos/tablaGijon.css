@@ -9,7 +9,7 @@ table{
 caption{
     font-size: 20px;
     font-weight: bold;
-    color: red;
+    color: #ff0000;
     font-family: Arial, Helvetica, sans-serif;
 }
 tr{
@@ -24,10 +24,10 @@ td, th{
     font-weight: normal;
 }
 thead th{
-    background-color: #5c9610ad;
+    background-color: #054375ad;
 }
 tbody th{
-    background-color: #8fd82fad;
+    background-color: #3579b1ad;
 }
 .a1{
     background-color: #f87e2d;
