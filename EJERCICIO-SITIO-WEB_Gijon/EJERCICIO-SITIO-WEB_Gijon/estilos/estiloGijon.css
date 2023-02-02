@@ -167,20 +167,28 @@ margin: auto;
     margin-left: 10%;
 }
 #atr{
-    height: 200px;
+    height: 250px;
     width: 150px;
+    float: left;
+    margin-right: 5%;
+    margin-left: 15%;
+    margin-top: 7%;
 }
 #at{
     text-align: right;
     margin-right: 20%;
 }
 #pat{
-    height: 150px;
-    width: 200px;
+    height: 250px;
+    width: 300px;
+    float: right;
+    margin-right: 10%;
+    margin-left: 7%;
+    margin-top: 5%;
 }
+
 #igl{
     margin-left: 25%;
-    border-radius: 30px;
     width: 600px;
     height: 400px;
 }
@@ -194,6 +202,9 @@ margin: auto;
 #tor{
     height: 200px;
     width: 150px;
+    text-align: right;
+    margin-right: 5%;
+    margin-left: 10%;
 }
 #gijon{
     display: block;
@@ -261,4 +272,26 @@ margin: auto;
     margin: 10px 0;
     height: auto;
     float: left;
+  }
+  .atrio{
+    padding-left: 5px;
+    padding-bottom: 5px;
+    margin: 10px 0;
+    height: auto;
+    float: right;
+  }
+  .patio{
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin: 10px 0;
+    height: auto;
+    float: left;
+  }
+  .torre{
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin: 10px 0;
+    height: auto;
+    float: right;
+    margin: ;
   }
