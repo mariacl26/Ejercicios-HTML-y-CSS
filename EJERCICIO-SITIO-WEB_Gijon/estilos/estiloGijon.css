@@ -117,6 +117,7 @@ p{
     line-height: 30px;
     margin-top: 10px;
     height: auto;
+    overflow: auto;
 }
 
 h3{
