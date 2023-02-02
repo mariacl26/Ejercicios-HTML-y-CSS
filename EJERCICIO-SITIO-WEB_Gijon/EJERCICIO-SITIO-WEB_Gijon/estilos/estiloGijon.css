@@ -195,18 +195,18 @@ margin: auto;
     height: 400px;
 }
 #tea{
-    margin-left: 35%;
-    width: 400px ;
+    margin-left: 30%;
+    width: 500px ;
     height: 300px;
-    padding: 2px;
     border-radius: 10px;
 }
 #tor{
     height: 200px;
     width: 150px;
-    text-align: right;
-    margin-right: 5%;
-    margin-left: 10%;
+    float: right;
+    margin-right: 4%;
+    margin-left: 3%;
+    margin-top: 5%;
 }
 #gijon{
     display: block;
@@ -249,7 +249,7 @@ margin: auto;
     height: 400px;
     display: block;
     margin-left: 17%;
-    position: relative;
+    position:relative;
 
 }
 .autor{
@@ -257,20 +257,45 @@ margin: auto;
     margin-left: 45%;
 }
 #mapa{
-    width: 300px;
-    height: 300px;
+    width: 550px;
+    height: 450px;
+    float: right;
+    margin-right: 2%;
+    margin-left: 3%;
+    margin-top: 5%;
 }
 #hidrografia{
-    width: 300px;
+    width: 500px;
+    height: 400px;
+    float: right;
+    margin-right: 4%;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+#clim{
+    width: 450px;
     height: 300px;
+    float: right;
+    margin-right: 4%;
+    margin-left: 3%;
+    margin-top: 5%;
 }
 #prehis{
     width: 300px;
     height: 300px;
+    float: right;
+    margin-right: 4%;
+    margin-left: 3%;
+    margin-top: 5%;
 }
 #plaza{
     width: 300px;
     height: 300px;
+    float: right;
+    margin-right: 4%;
+    margin-left: 3%;
+    margin-top: 1%;
+    margin-bottom: ;
 }
 .puerta{
     padding-right: 5px;
