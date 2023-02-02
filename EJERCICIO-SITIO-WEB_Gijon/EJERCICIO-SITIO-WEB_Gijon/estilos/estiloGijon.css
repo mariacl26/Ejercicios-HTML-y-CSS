@@ -162,10 +162,17 @@ margin: auto;
 #puer{
     height: 200px;
     width: 150px;
+    float: right;
+    margin-right: 15%;
+    margin-left: 10%;
 }
 #atr{
     height: 200px;
     width: 150px;
+}
+#at{
+    text-align: right;
+    margin-right: 20%;
 }
 #pat{
     height: 150px;
@@ -248,3 +255,10 @@ margin: auto;
     width: 300px;
     height: 300px;
 }
+.puerta{
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin: 10px 0;
+    height: auto;
+    float: left;
+  }
