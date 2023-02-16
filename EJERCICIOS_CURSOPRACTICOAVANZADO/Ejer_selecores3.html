@@ -5,8 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selectores 3</title>
+    <style type="text/css">
+        /* en su estado normal */
+        a {
+            color: #F00;
+            text-decoration: none;
+        }
+        /*cuando el enlace ha sido visitado*/
+        a:visited {
+            color: #0A0;
+        }
+        /* al situar el cursor*/
+        a:hover {
+            color: #FFF;
+            background-color: #F00;
+            text-decoration: underline;
+        }
+        /*cuando el enlace tiene foco del teclado*/
+        a:focus {
+            color: #00F;
+            text-decoration: underline;
+        }
+        /*enlace está activo */
+        a:active {
+            color: #F60;
+            background-color: #FFF;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Universidad de Alicante</h1>
+
+    <ul>
+        <li><a href="presentacion.html">Presentación</a></li>
+        <li><a href="estudios.html">Estudios</a></li>
+        <li><a href="alumnos.html">Alumnos</a></li>
+        <li><a href="deportes.html">Deportes</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+    </ul>
 </body>
 </html>
