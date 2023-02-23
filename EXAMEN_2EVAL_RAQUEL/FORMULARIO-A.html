@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Raquel</title>
+</head>
+<body>
+    <h1>Formulario de Raquel</h1>
+    <form action="tratar-datos.html" method="get">
+        <fieldset class="completa">
+            <legend>Elige tus favoritos</legend>
+                <label for="color">Color favorito: </label> 
+                <input type="color" id="color" name="color">
+                <br>
+                <label for="asignatura">Asignatura favorita: </label>
+                <br>
+                <input type="radio" id="asignatura" name="Marcas" value="Marcas" selected="selected">
+                <label for="Marcas">Marcas</label>
+                <input type="radio" id="asignatur" name="Bases" value="Bases">
+                <label for="Bases">Bases de datos</label>
+                <input type="radio" id="asignatu" name="Program" value="Program">
+                <label for="Program">Programación</label>
+                <input type="radio" id="asignat" name="Endes" value="Endes">
+                <label for="Endes">Entornos de Desarrollo</label>
+                <br>
+                <p>¿Por qué te gusta esa asignatura?</p>
+                <textarea rows="4" cols="50" name="observaciones" placeholder="Escribe aquí"></textarea>
+                <br/>
+        </fieldset>
+        <fieldset class="opcionales">
+            <legend>Datos Opcionales</legend>
+                <p>Redes Sociales favoritas (puedes marcar más de una...) </p>
+                <select id="redes" name="redes" multiple="si" size="3">
+                    <optgroup>
+                        <option value="Instagram" selected="selected"> Instagram</option>
+                        <option value="TikTok">TikTok</option>
+                        <option value="Twitter">Twitter</option>
+                        <option value="Facebook">Facebook</option>
+                    </optgroup>
+                </select>
+        </fieldset>
+        <fieldset class="personales">
+            <legend>Datos Personales</legend>
+            <label for="nombre">Nombre y Apellidos:  </label> 
+            <input type="text" id="nombre" name="nombre">
+            <br>
+            <label for="email">Email: </label>
+            <input type="text" id="email" name="email" size="20" maxlength="40"/>
+            <br>
+            <label for="fecha">Fecha de nacimiento: </label>
+            <input type="date" id="fecha" name="fecha" size="20" maxlength="40"/>
+        </fieldset>
+        <br/>
+        <input type="reset" value="Borrar">
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
